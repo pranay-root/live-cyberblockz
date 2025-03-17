@@ -393,6 +393,40 @@
             text-align: center;
         }
 
+        .original-price {
+            text-decoration: line-through;
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+
+        .discount-badge {
+            background-color: #ff3939;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .discount-text {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .discount-price {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .limited-offer {
+            background-color: #1a2736;
+            border-left: 3px solid #4caf50;
+            padding: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
         /* For the icons (you'll need to add FontAwesome to your project) */
         @media (max-width: 768px) {
             .footer-content {
@@ -505,12 +539,19 @@
                         <h3 class="course-title">Cyberblockz full course Live Classes</h3>
                         <div class="course-info">
                             <span>Duration: 3 Months</span>
-                            <span>7999 Rs</span>
+                            <span class="original-price">7999 Rs</span>
                         </div>
-                        <p class="course-desc">From Basic to Advance includes all three courses Ethical hacking + bug
-                            Bounty + CTF </p>
+                        <div class="discount-badge">
+                            <span class="discount-text">30% OFF</span>
+                            <span class="discount-price">5499 Rs</span>
+                        </div>
+                        <div class="limited-offer">
+                            <p>Limited Time Offer: 14th March - 25th March</p>
+                        </div>
+                        <p class="course-desc">From Basic to Advance includes all three courses Ethical hacking + Bug
+                            Bounty + CTF</p>
                         <div class="course-buttons">
-                            <a href="https://wa.me/918074557618?text=I'm interested in enrolling for the cyberblockz full course" 
+                            <a href="https://wa.me/918074557618?text=I'm interested in enrolling for the cyberblockz full course"
                                 class="btn btn-small" target="_blank">Enroll Now</a>
                             <a href="#" class="btn btn-small btn-outline" id="learn-more-1">Course Content</a>
                         </div>
@@ -555,10 +596,14 @@
                         ever-evolving
                         digital landscape.</p>
                     <div class="social-icons">
-                        <a href="https://www.youtube.com/@cyberblockz" class="social-icon" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="https://chat.whatsapp.com/ClTJ7ZNuKhaDqKOZfgV6mk" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://www.instagram.com/cyberblockz_official/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://telegram.me/+G2xlCzK1gcw4Njc1" class="social-icon" target="_blank"><i class="fab fa-telegram"></i></a>                        
+                        <a href="https://www.youtube.com/@cyberblockz" class="social-icon" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://chat.whatsapp.com/ClTJ7ZNuKhaDqKOZfgV6mk" class="social-icon"
+                            target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/cyberblockz_official/" class="social-icon" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://telegram.me/+G2xlCzK1gcw4Njc1" class="social-icon" target="_blank"><i
+                                class="fab fa-telegram"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
@@ -568,7 +613,8 @@
                         <li><a href="https://www.youtube.com/@cyberblockz" target="_blank">About Us</a></li>
                         <li><a href="https://www.instagram.com/cyberblockz_official/" target="_blank">Contact</a></li>
                         <li><a href="https://cyberblockz.in/privacy-policy/" target="_blank">Privacy Policy</a></li>
-                        <li><a href="https://cyberblockz.in/terms-and-conditions/" target="_blank">Terms of Service</a></li>
+                        <li><a href="https://cyberblockz.in/terms-and-conditions/" target="_blank">Terms of Service</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-section">
